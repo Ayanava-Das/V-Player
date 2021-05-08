@@ -1,0 +1,85 @@
+.full-page
+{
+    width: 100%;
+    height: 150vh;
+    background: linear-gradient(to bottom, #141b29, #0c111b 300px);
+    position: absolute;
+    overflow: hidden;
+}
+.headernav
+{
+    position: fixed;
+    z-index: 1;
+    background: linear-gradient(to bottom, #141b29, #0c111b 300px);
+    width: 100%; 
+}
+.navbar-brand
+{
+    font-size: 30px !important;
+    color: white !important;
+    font-family: 'Dancing Script',cursive !important;
+    padding-top: 0px !important;
+    padding-left: 50px !important;
+    padding-right: 0px !important;
+
+}
+.nav-link
+{
+   font-size: 18px !important;
+   color: white !important;
+   padding-left: 90px !important;
+}
+.sub-page
+{
+    width: 1247px;
+    height: 400px;
+    position: absolute;
+    background: pink;
+    background-size: cover;
+    background-position: center;
+    left: 60px;
+    top: 70px;
+    outline: none;
+}
+#carouselExampleCaptions
+{
+    width: 1247px !important;
+    height: 400px !important;
+}
+.latest
+{
+    top: 490px;
+    left:60px;
+    position: absolute;
+    color: white;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-1
+{
+    flex-basis: 20%;
+    min-width: 250px;
+}
+.col-1 img:hover
+{
+    padding-bottom: 5px;
+}
+.Shows
+{
+    top: 700px;
+    left: 60px;
+    position: absolute;
+    color: white;
+}
+.full-page-sports
+{
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(to bottom, #141b29, #0c111b 300px);
+    position: absolute;
+    overflow: hidden;
+}
